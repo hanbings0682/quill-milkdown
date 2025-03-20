@@ -1,0 +1,16 @@
+/* Override Milkdown editor padding and margin */
+.milkdown {
+  padding: 32px !important;
+  margin: 32px !important;
+}
+
+/* Target the editor container directly */
+.milkdown .editor {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Add z-index to slash menu */
+milkdown-slash-menu {
+  z-index: 9999 !important;
+}
